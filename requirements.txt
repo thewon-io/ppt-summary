@@ -1,0 +1,7 @@
+streamlit
+google-generativeai
+Pillow
+opencv-python-headless
+numpy
+reportlab
+streamlit-image-coordinates
