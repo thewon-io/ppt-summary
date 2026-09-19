@@ -326,7 +326,8 @@ def create_txt_summary(data_dict):
 # ---------------------------------------------------------
 st.set_page_config(page_title="PPT SUMMARY 생성기", layout="wide")
 
-st.title("📚 SlideReport AI (PPT 정밀 분석 및 SUMMARY 보고서 생성기)")
+st.title("📚 SlideReport AI")
+st.subheader("(PPT 정밀 분석 및 SUMMARY 보고서 생성기)")
 st.caption("마우스 클릭 4점 영역 조정 | 이미지 자동 추출 배경정보 | PDF & TXT 다운로드")
 
 if "slides_store" not in st.session_state:
